@@ -1,0 +1,35 @@
+.hero {
+    background-size: cover; /* Zorg dat de afbeelding het volledige element bedekt */
+    background-position: center; /* Centreer de afbeelding */
+    background-repeat: no-repeat; /* Voorkom herhaling */
+    width: 97%; /* Volledige breedte van het scherm */
+    margin: 0 auto; /* Centreer het element */
+    border-radius: 10px; /* Afgeronde hoeken */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    gap: 4rem;
+    height: 80vh;
+    margin-top: 1rem;
+    & .hero__h2 {
+        font-size: 4rem;
+        color: var(--color-yellow);
+    }
+
+    & .hero__p {
+        width: 50%;
+        color: var(--color-yellow);
+    }
+
+    & .hero__btn {
+        border: none;
+        background-color: var(--color-yellow);
+        padding: 1rem 5rem;
+        border-radius: 5px;
+        color: var(--color-dark);
+    }
+}

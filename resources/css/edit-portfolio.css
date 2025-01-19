@@ -1,0 +1,105 @@
+/* General container styles */
+.edit-portfolio-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--color-dark);
+    border-radius: 8px;
+    color: var(--color-yellow);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title styling */
+.edit-portfolio-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: var(--color-yellow);
+}
+
+/* Form styling */
+.edit-portfolio-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Form group styling */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Label styling */
+.form-label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Input styling */
+.form-input,
+.form-select,
+.form-textarea {
+    padding: 0.75rem;
+    border: 1px solid var(--color-yellow);
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+/* Input hover and focus effects */
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+    border-color: var(--color-yellow);
+    outline: none;
+}
+
+/* Textarea styling */
+.form-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button styling */
+.submit-button {
+    padding: 0.75rem 1.5rem;
+    background-color: var(--color-yellow);
+    border: none;
+    border-radius: 4px;
+    color: var(--color-dark);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color: #ffe359;
+    transform: translateY(-2px);
+}
+
+.submit-button:active {
+    background-color: #ffd933;
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .edit-portfolio-container {
+        padding: 1rem;
+    }
+
+    .form-input,
+    .form-select,
+    .form-textarea {
+        font-size: 0.9rem;
+    }
+
+    .submit-button {
+        font-size: 0.9rem;
+    }
+}

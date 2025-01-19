@@ -1,0 +1,54 @@
+.profile-container {
+    margin: 0 auto;
+    padding: 2rem;
+    color: var(--color-dark);
+    background-color: var(--color-yellow);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile-name {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.profile-email,
+.profile-joined {
+    font-size: 1rem;
+    color: var(--color-dark);
+}
+
+.profile-likes {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.likes-count {
+    color: var(--color-dark);
+}
+
+.profile-portfolios {
+    margin-top: 2rem;
+}
+
+.portfolios-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.cards-container p {
+    text-align: center;
+}

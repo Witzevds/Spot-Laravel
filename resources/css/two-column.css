@@ -1,0 +1,36 @@
+.two-column {
+    display: flex;
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    & .two-column__left {
+        margin-top: 2rem;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        & h3 {
+            font-size: 3rem;
+            font-family: var(--lato-black);
+        }
+
+        & h4 {
+            font-size: 1.5rem;
+            font-family: var(--lato-bold);
+        }
+
+        & p {
+            font-size: 1.6rem;
+            font-family: var(--lato-light);
+        }
+    }
+    & .two-column__right {
+        width: 50%;
+
+        & .two-column__right--img {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,183 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+}
+
+.portfolio-card {
+    background-color: #1e1e2f;
+    color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-card__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #f3c623;
+}
+
+.portfolio-card__description {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color: #d4d4d8;
+}
+
+.portfolio-card__view {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #f3c623;
+    color: #1e1e2f;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-card__view:hover {
+    background-color: #d9a919;
+}
+
+.portfolio-card__image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.portfolio-card__edit,
+.portfolio-card__delete {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.portfolio-card__edit {
+    background-color: #4caf50;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-card__edit:hover {
+    background-color: #45a047;
+}
+
+.portfolio-card__delete {
+    background-color: #e53935;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-card__delete:hover {
+    background-color: #d32f2f;
+}
+
+.portfolio-likes {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.like-button-wrapper {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.like-button {
+    transition: fill 0.3s ease, stroke 0.3s ease;
+    width: 24px;
+    height: 24px;
+}
+
+.like-button-wrapper:hover .like-button {
+    fill: #f3c623;
+    stroke: #f3c623;
+}
+
+.portfolio-tags {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.tag {
+    background-color: #3f3f51;
+    color: #ffffff;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-transform: capitalize;
+}
+
+.comments-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.comments-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #f3c623;
+}
+
+.comments-section textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #4e4e60;
+    background-color: #2e2e44;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.comments-section textarea:focus {
+    outline: none;
+    border-color: #f3c623;
+    box-shadow: 0 0 0 3px rgba(243, 198, 35, 0.4);
+}
+
+.comments-section button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #f3c623;
+    color: #1e1e2f;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comments-section button:hover {
+    background-color: #d9a919;
+}

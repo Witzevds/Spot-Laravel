@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Junge";
+    src: url("../fonts/Junge/Junge-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Libre-Caslon-Display";
+    src: url("../fonts/Libre-Caslon-Display/LibreCaslonDisplay-Regular.ttf")
+        format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato-black";
+    src: url("../fonts/Lato/Lato-black.ttf") format("truetype");
+    font-weight: black;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato-regular";
+    src: url("../fonts/Lato/Lato-Regular.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato-bold";
+    src: url("../fonts/Lato/Lato-Bold.ttf") format("truetype");
+    font-weight: regular;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato-light";
+    src: url("../fonts/Lato/Lato-Light.ttf") format("truetype");
+    font-weight: light;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Libre-Bodoni";
+    src: url("../fonts/Libre_Bodoni/static/LibreBodoni-Medium.ttf")
+        format("truetype");
+    font-weight: Medium;
+    font-style: normal;
+}
+
+:root {
+    --junge-regular: "Junge", sans-serif;
+    --libre-caslon-display: "Libre-Caslon-Display", serif;
+    --lato-black: "Lato-black", sans-serif;
+    --lato-bold: "Lato-bold", sans-serif;
+    --lato-light: "Lato-light", sans-serif;
+    --lato-regular: "Lato-regular", sans-serif;
+    --libre-bodoni: "Libre-Bodoni", serif;
+    --color-dark: #1e1e1e;
+    --color-yellow: #f9ffa7;
+    --background-color: #fff9ee;
+}
